@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Keystone GTM Partners — Go-to-market for PE portfolio companies</title>
+  <meta name="description" content="Go-to-market services that help private equity portfolio companies grow revenue faster before exit.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+  <!-- AI-generated video: autoplays muted and loops immediately on landing -->
+  <video autoplay muted loop playsinline preload="auto" poster="" aria-hidden="true">
+    <source src="assets/hero.mp4" type="video/mp4">
+  </video>
+
+  <nav class="nav">
+    <div class="wrap">
+      <a class="brand" href="index.html">KEYSTONE <b>GTM</b></a>
+      <a class="link" href="services.html">Services</a>
+    </div>
+  </nav>
+
+  <div class="wrap content">
+    <span class="eyebrow">Go-to-market for private equity</span>
+    <h1>Turn portfolio companies into growth stories.</h1>
+    <p class="lead">We help PE-backed businesses sharpen positioning, rebuild the sales engine and prove a repeatable growth story, so value creation shows up in revenue well before exit.</p>
+    <a class="btn" href="services.html">Explore our services &rarr;</a>
+    <a class="btn ghost" href="#calculator">Try the calculator</a>
+  </div>
+</header>
+
+<section class="block">
+  <div class="wrap">
+    <div class="kicker">What we do</div>
+    <h2 class="section-title">Revenue growth, built for a hold period.</h2>
+    <p class="sub">Most portfolio companies don't lack ambition, they lack a go-to-market engine that scales on the PE clock. Keystone GTM Partners plugs in fast, focuses on the few levers that move revenue, and leaves behind a team that can keep going.</p>
+    <div class="grid">
+      <div class="card"><span class="num">01</span><h3>Positioning &amp; pricing</h3><p>Clarify who you win with, why, and what to charge.</p></div>
+      <div class="card"><span class="num">02</span><h3>Pipeline &amp; sales engine</h3><p>Build a predictable pipeline, process and playbook.</p></div>
+      <div class="card"><span class="num">03</span><h3>Exit-ready growth story</h3><p>Turn results into metrics a buyer will believe.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="block alt" id="calculator">
+  <div class="wrap">
+    <div class="kicker">Value creation calculator</div>
+    <h2 class="section-title">See what better go-to-market could be worth.</h2>
+    <p class="sub">Move the sliders to estimate the revenue and enterprise-value impact of a go-to-market improvement.</p>
+    <div class="calc">
+      <div class="controls card">
+        <div class="field">
+          <label for="rev">Current annual revenue <span id="revOut"></span></label>
+          <input id="rev" type="range" min="10" max="500" step="5" value="80">
+        </div>
+        <div class="field">
+          <label for="upl">GTM-driven revenue uplift <span id="uplOut"></span></label>
+          <input id="upl" type="range" min="1" max="40" step="1" value="12">
+        </div>
+        <div class="field">
+          <label for="mul">Exit revenue multiple <span id="mulOut"></span></label>
+          <input id="mul" type="range" min="1" max="12" step="0.5" value="4">
+        </div>
+        <p class="note">Illustrative math only (revenue &times; uplift &times; multiple). Not a forecast or financial advice.</p>
+      </div>
+      <div class="result">
+        <div><div class="lab">Added annual revenue</div><div class="val" id="incOut">$0M</div></div>
+        <div><div class="lab">Illustrative enterprise value created</div><div class="val gold" id="evOut">$0M</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p class="xf"><strong>X-Factor:</strong> an interactive Value Creation Calculator. Slide revenue, GTM uplift and exit multiple to see an illustrative revenue and enterprise-value gain with animated counters, showing how better go-to-market execution compounds for a private-equity portfolio company.</p>
+    <small>Keystone GTM Partners is a fictional concept created for a class project (Generative AI for Business, SMU Cox). Not a real firm or offer.</small>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+<script src="chatbot.js"></script>
+</body>
+</html>
