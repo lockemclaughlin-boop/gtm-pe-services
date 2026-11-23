@@ -9,7 +9,7 @@
  * page. If it differs from the loader below (script URL / config name), copy
  * Chatling's snippet's values here instead.
  */
-const CHATLING_ID = ""; // <-- paste chatbot id here, e.g. "1234567890"
+const CHATLING_ID = "4365316849"; // Keystone GTM Assistant (Chatling)
 
 (function () {
   if (CHATLING_ID) {
